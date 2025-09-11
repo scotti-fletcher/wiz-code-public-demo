@@ -34,3 +34,28 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# IDEs and editors
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Mac system files
+.DS_Store
