@@ -930,8 +930,6 @@ namespace OWASPValidation
     // Stub methods to make the code compile
     public static class HelperMethods
     {
-        public static void ExecuteQuery(string query) { }
-        public static T ExecuteQuery<T>(string query) { return default(T); }
         public static string GetConnectionString() { return ""; }
         public static void ChargePayment(string userId, decimal amount) { }
         // Add other helper methods as needed
