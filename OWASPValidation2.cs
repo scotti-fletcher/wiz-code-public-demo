@@ -326,7 +326,6 @@ namespace OWASPValidation
 
     }
 
-    // other classes (A05..A10, helpers, models) kept mostly unchanged
     // ================================================================
     // HELPER CLASSES AND METHODS (for compilation)
     // ================================================================
