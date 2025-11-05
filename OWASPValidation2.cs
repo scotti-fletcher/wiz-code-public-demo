@@ -20,9 +20,7 @@ using Newtonsoft.Json;
 
 namespace OWASPValidation
 {
-    // ================================================================
-    // Helper: connection string provider (kept simple for demo)
-    // ================================================================
+
     public static class DbHelpers
     {
         public static string GetConnectionString()
@@ -139,7 +137,7 @@ namespace OWASPValidation
     // ================================================================
     public class A02_CryptographicFailures
     {
-        // ... (kept for context, unchanged)
+     
         private DataContext context;
 
         // Storing passwords in plain text (changed to use direct SQL sink)
@@ -161,7 +159,6 @@ namespace OWASPValidation
             }
         }
 
-        // ... other methods unchanged for brevity
     }
 
     // ================================================================
@@ -296,7 +293,7 @@ namespace OWASPValidation
             return template;
         }
 
-        // Dummy placeholder for NoSQL execution (kept as example)
+      
         private string ExecuteNoSqlQuery(string q)
         {
             // For demo only
@@ -327,7 +324,6 @@ namespace OWASPValidation
             DbHelpers.ExecuteNonQuery(sql);
         }
 
-        // ... rest unchanged for brevity
     }
 
     // other classes (A05..A10, helpers, models) kept mostly unchanged
